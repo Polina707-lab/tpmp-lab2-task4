@@ -5,6 +5,9 @@
 #include <stddef.h>
 #include <stdio.h>
 
-void company_write_with_employees_gt(FILE *out, const InternationalCompany *arr, size_t n, int threshold);
+void company_write_with_employees_gt(FILE *out,
+                                     const InternationalCompany *arr,
+                                     size_t n,
+                                     int threshold);
 
 #endif

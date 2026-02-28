@@ -7,8 +7,6 @@ TARGET := $(BIN_DIR)/task4
 
 SRCS := \
   src/main.c \
-  src/date_service.c \
-  src/worker_service.c \
   src/company_service.c \
   src/file_input.c
 
