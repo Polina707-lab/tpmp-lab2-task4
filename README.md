@@ -2,15 +2,28 @@
 
 ## Overview
 
-This repository contains Task 4 of the laboratory work.  
-The goal of this task is to implement a C program for reading and writing text files.
+This repository contains Task 4 of Laboratory Work 2.
+
+Variant 19 – "International Company".
+
+The goal of this task is to implement a C program for processing text files.
+
+The program reads information about international companies from a text file and outputs only those companies whose number of employees exceeds 10000.
+
+Each company includes:
+- company name,
+- website,
+- headquarters address (postal index, country, region, district, city, street, house, apartment),
+- years on the global market,
+- number of employees,
+- number of branches in Europe.
 
 The program:
-- reads data from a text file,
-- processes the data according to the individual assignment,
-- writes the results to a new text file.
+- reads company data from a text file,
+- processes the data,
+- writes the filtered results to a new text file.
 
-The project is organized according to the KIS model and built using the `make` utility.  
+The project is organized according to the KIS model and built using the `make` utility.
 Continuous Integration is configured using GitHub Actions.
 
 ## Author
